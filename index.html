@@ -4,58 +4,6 @@
   <meta charset="UTF-8">
   <title>Daniel Lopes — Video Editor & Motion Designer</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0 20px;
-      line-height: 1.6;
-      background: #f9f9f9;
-    }
-
-    header, section, footer {
-      max-width: 1000px;
-      margin: 40px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    h1, h2, h3 {
-      margin-top: 0;
-    }
-
-    iframe {
-      width: 100%;
-      max-width: 800px;
-      height: 450px;
-      border: none;
-      margin-bottom: 20px;
-      border-radius: 8px;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    @media (max-width: 600px) {
-      iframe {
-        height: 250px;
-      }
-    }
-  </style>
 </head>
 <body>
 
@@ -67,57 +15,64 @@
   </header>
 
   <!-- SKILLS -->
-  <section id="skills">
+  <section class="section" id="skills">
     <h2>🚀 Skills</h2>
-    <ul>
-      <li>Talking Head Editing (YouTube)</li>
-      <li>Short-form Content (Reels / TikTok)</li>
-      <li>Motion Design (After Effects)</li>
-    </ul>
+    <div class="cards">
+      <div class="card">Talking Head Editing (YouTube)</div>
+      <div class="card">Short-form Content (Reels / TikTok)</div>
+      <div class="card">Motion Design (After Effects)</div>
+    </div>
   </section>
 
   <!-- TOOLS -->
-  <section id="tools">
+  <section class="section" id="tools">
     <h2>🧰 Tools</h2>
-    <ul>
-      <li>Adobe Premiere Pro</li>
-      <li>Adobe After Effects</li>
-    </ul>
+    <div class="cards">
+      <div class="card">Adobe Premiere Pro</div>
+      <div class="card">Adobe After Effects</div>
+    </div>
   </section>
 
   <!-- FEATURED WORK -->
-  <section id="featured-work">
+  <section class="section" id="featured-work">
     <h2>📂 Featured Work</h2>
 
-    <h3>🎥 Talking Head</h3>
-    <iframe src="https://www.youtube.com/embed/fsCYVzmJ0QA" title="Talking Head Video" allowfullscreen></iframe>
+    <div class="projects">
+      <div class="project">
+        <h3>🎥 Talking Head</h3>
+        <iframe src="https://www.youtube.com/embed/fsCYVzmJ0QA" allowfullscreen></iframe>
+      </div>
 
-    <h3>📱 Short Form</h3>
-    <iframe src="https://www.youtube.com/embed/fsCYVzmJ0QA" title="Short Form Reel" allowfullscreen></iframe>
+      <div class="project">
+        <h3>📱 Short Form</h3>
+        <iframe src="https://www.youtube.com/embed/fsCYVzmJ0QA" allowfullscreen></iframe>
+      </div>
 
-    <h3>✨ Motion Design</h3>
-    <iframe src="https://www.youtube.com/embed/YOUR_ANIMATION_ID" title="Motion Design Animation" allowfullscreen></iframe>
+      <div class="project">
+        <h3>✨ Motion Design</h3>
+        <iframe src="https://www.youtube.com/embed/YOUR_ANIMATION_ID" allowfullscreen></iframe>
+      </div>
+    </div>
   </section>
 
   <!-- CERTIFICATIONS -->
-  <section id="certifications">
+  <section class="section" id="certifications">
     <h2>🏆 Certifications</h2>
-
-    <iframe src="https://www.credly.com/badges/8b7a6fed-3fe1-417a-8a18-676bf68f161e/public_url" title="After Effects Certification"></iframe>
-
-    <iframe src="https://www.credly.com/badges/8f72ac6d-48e2-47e4-b6be-f25ab492759d/public_url" title="Adobe Certified Professional in Video Design"></iframe>
-
-    <iframe src="https://www.credly.com/badges/a150279e-a67b-40f8-aeaf-4ad40b49e4cf/public_url" title="Premiere Pro Certification"></iframe>
+    <div class="certificates">
+      <iframe src="https://www.credly.com/badges/8b7a6fed-3fe1-417a-8a18-676bf68f161e/public_url"></iframe>
+      <iframe src="https://www.credly.com/badges/8f72ac6d-48e2-47e4-b6be-f25ab492759d/public_url"></iframe>
+      <iframe src="https://www.credly.com/badges/a150279e-a67b-40f8-aeaf-4ad40b49e4cf/public_url"></iframe>
+    </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact">
+  <section class="section" id="contact">
     <h2>📩 Contact</h2>
     <p>Email: <a href="mailto:danielopessofc@gmail.com">danielopessofc@gmail.com</a></p>
   </section>
 
   <!-- AVAILABILITY -->
-  <section id="availability">
+  <section class="section" id="availability">
     <h2>⚡ Availability</h2>
     <p>Open for freelance work.</p>
   </section>
